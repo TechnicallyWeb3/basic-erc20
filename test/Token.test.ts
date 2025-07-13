@@ -50,7 +50,7 @@ describe("Token Tests", function () {
         const otherAccountBalance = await token.balanceOf(otherAccount.address);
         await token.connect(otherAccount).burn(otherAccount.address, burnAmount);
         const newOtherAccountBalance = await token.balanceOf(otherAccount.address);
-        expect(newOtherAccountBalance).to.be.lessThan(otherAccountBalance);
+        expect(newOtherAccountBalance).to.equal(otherAccountBalance - burnAmount);
     });
 
 });
