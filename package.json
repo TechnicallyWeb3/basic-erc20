@@ -1,0 +1,33 @@
+{
+  "name": "basic-erc20",
+  "version": "1.0.0",
+  "description": "Example erc20 smart contract",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx hardhat test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/technicallyweb3/basic-erc20.git"
+  },
+  "keywords": [
+    "erc20",
+    "tw3",
+    "example",
+    "learning"
+  ],
+  "author": "TechnicallyWeb3",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/technicallyweb3/basic-erc20/issues"
+  },
+  "homepage": "https://github.com/technicallyweb3/basic-erc20#readme",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^6.0.0",
+    "dotenv": "^17.2.0",
+    "hardhat": "^2.25.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.3.0"
+  }
+}
